@@ -24,3 +24,15 @@ function accessElementInArray (arr, index) {
 function destructivelyRemoveElementToBeginningOfArray(arr){
   
 }
+
+function removeElementToBeginningOfArray(arr){
+  
+}
+
+function destructivelyRemoveElementToEndOfArray(arr){
+  
+}
+
+function removeElementFromEndOfArray(arr){
+  
+}
