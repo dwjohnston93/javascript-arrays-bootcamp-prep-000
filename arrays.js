@@ -24,17 +24,17 @@ function accessElementInArray (array, index) {
 }
 
 function destructivelyRemoveElementToBeginningOfArray(array){
-  
+  array.shift()
 }
 
-function removeElementToBeginningOfArray(arr){
-  
+function removeElementToBeginningOfArray(array){
+  array.slice(1);
 }
 
-function destructivelyRemoveElementToEndOfArray(arr){
-  
+function destructivelyRemoveElementToEndOfArray(array){
+  array.pop(); 
 }
 
 function removeElementFromEndOfArray(arr){
-  
+  array.slice(array.length-1);
 }
